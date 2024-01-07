@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+        <div class="container-fluid">
+            <img src="https://dilpasandsweets.com/wp-content/uploads/2020/02/logo.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2022/05/WinterDelight.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2020/02/bg2.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2022/05/Pizzadeal.jpg" class="d-block w-100"
+                    alt="...">
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2022/05/fastfoodbanner.png"
+                    class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2022/05/fastfoodbanner.png"
+                    class="d-block w-100" alt="...">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- cards -->
+    <div class="cards-div">
+        <h1 class="heading">
+            Our Featured Products</h1>
+        <div class="container">
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img.png" alt="">
+                <h2 class="head">Mix Sweets</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+            </div>
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img1.png">
+                <h2 class="head">Mix Halwajat</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img2.png" alt="">
+
+                <h2 class="head">Bakery</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img3.png" alt="">
+
+                <h2 class="head">Nimkoz</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img4.png" alt="">
+
+                <h2 class="head">Cakes</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img5.png" alt="">
+
+                <h2 class="head">Chill</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img7.png" alt="">
+
+                <h2 class="head">Pastries</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img6.png" alt="">
+
+                <h2 class="head">Fast Food</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+
+            <div class="card">
+                <img src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img8.png" alt="">
+
+                <h2 class="head">Packed Products</h2>
+                <button type="button" class="btn btn-primary">Order Now ></button>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.dilpasandsweets.com/wp-content/uploads/2019/07/img9.png" alt="">
+
+            <h2 class="head">Halwa Puri</h2>
+            <button type="button" class="btn btn-primary">Order Now ></button>
+
+        </div>
+    </div>
+    <div class="imageoverlay sixteen">
+        <img class="image"src="https://www.dilpasandsweets.com/wp-content/uploads/2020/02/bg_02.jpg" alt="">
+        <div class="second content">
+            <div>
+                <h2 class="head center first">Our Diverse & Delicious Range of Sweets</h2>
+            </div>
+            <div>
+                <p class="para center">Dilpasand Sweets come in all shapes, sizes and textures but what’s constant
+                    is the great taste and guaranteed freshness.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <h1 class="head">ABOUT US</h1>
+        <div class="sixteen">
+            <div class="content">
+                <h1 class="tw">HOME PAGE</h1>
+
+                <h1 class="fou">LANDING PAGE</h1>
+                <p class="fiv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur<br>
+                    illo ipsam, debitis ullam recusandae et voluptatem cupiditate accusamus praesentium <br>
+                    beatae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur animi <br>
+                    tempore fuga quibusdam labore eos nulla, quaerat consequatur ipsa expedita autem at <br>
+                    eaque maxime nesciunt doloremque velit perferendis sapiente amet!</p>
+                <button type="button" class="btn btn-primary">Know More About Us ></button>
+
+            </div>
+            <div class="img">
+                <video width="320" height="240" controls class="four">
+                    <source src="https://dilpasandsweets.com/wp-content/uploads/2019/08/Dilpasand-Website.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="head">
+        <h1>Our Wide Range of Products</h1>
+    </div>
+
+    <div class="grid">
+        <div class="sixteen">
+            <div class="grid-container content">
+                <div class="item"><img class="she"
+                        src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img12.png" alt=""></div>
+                <div class="item"><img class="seven"
+                        src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img13.png" alt=""></div>
+                <div class="item"><img class="eight"
+                        src="https://www.dilpasandsweets.com/wp-content/uploads/2019/07/img15.png" alt=""></div>
+                <div class="item"><img class="nine"
+                        src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img14.png" alt=""></div>
+                <div class="item"><img class="ten"
+                        src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img16.png" alt=""></div>
+                <div class="item"><img class="eleven"
+                        src="https://dilpasandsweets.com/wp-content/uploads/2019/07/img17.png" alt=""></div>
+            </div>
+        <div>
+        </div>
+        </div>
+    </div>
+    <h2 class="head hea">OUR AWARDS</h2>
+    <div class="carouse">
+        <img class="slider" src="https://www.dilpasandsweets.com/wp-content/uploads/2020/02/logo1.png" alt="Image 1">
+        <img class="slider" src="https://www.dilpasandsweets.com/wp-content/uploads/2020/02/logo2.png" alt="Image 2">
+        <img class="slider" src="https://www.dilpasandsweets.com/wp-content/uploads/2020/02/logo2.png" alt="Image 3">
+        <img class="slider" src="https://www.dilpasandsweets.com/wp-content/uploads/2020/02/logo3.png" alt="Image 3">
+        <img class="slider" src="https://www.dilpasandsweets.com/wp-content/uploads/2020/02/logo5.png" alt="Image 3">
+    </div>
+    <div class="form">
+        <h2 class="lefthead topmargin">Contact Us</h2>
+        <form class="row g-3">
+            <div class="col-md-5">
+                <label for="name" class="form-label ">YourName</label>
+                <input type="text" class="form-control input" id="name">
+            </div>
+            <div class="col-md-5">
+                <label for="phonenumber" class="form-label number">Phone Number</label>
+                <input type="number" class="form-control input" id="phonenumber">
+            </div>
+            <div class="col-5">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control input" id="Email">
+            </div>
+            <div class="col-5">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control input" id="subject">
+                <div><button type="button" class="btn btn-primary button">submit</button></div>
+        </form>
+    </div>
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Info</h4>
+                <ul class="links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Compressions</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Collection</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="links">
+                    <li><a href="#">Free Designs</a></li>
+                    <li><a href="#">Latest Designs</a></li>
+                    <li><a href="#">Themes</a></li>
+                    <li><a href="#">Popular Designs</a></li>
+                    <li><a href="#">Art Skills</a></li>
+                    <li><a href="#">New Uploads</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="links">
+                    <li><a href="#">Customer Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
